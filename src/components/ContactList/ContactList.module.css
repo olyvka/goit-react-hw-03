@@ -1,0 +1,45 @@
+/* ContactList.module.css */
+
+.contactList {
+  list-style: none;
+  display: flex;
+  padding-bottom: 50px;
+  flex-wrap: wrap; /* Дозволяє рядкам переноситися на новий ряд, якщо вони не поміщаються в контейнері */
+}
+
+.contactItem {
+  width: 200px;
+  margin: 10px; /* Додатковий відступ між контактами */
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column; /* Розташування контактів у стовпчик */
+  justify-content: space-between; /* Рівномірне розташування елементів по ширині */
+  align-items: center; /* Вирівнювання елементів по вертикалі */ /* Вирівнювання елементів по вертикалі */
+}
+
+.contactName {
+  font-weight: bold;
+}
+
+.contactNumber {
+  color: #ccc;
+}
+
+.deleteButton {
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #ff6347;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  padding: 6px 18px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #ff473d;
+}

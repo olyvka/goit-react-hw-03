@@ -1,0 +1,46 @@
+/* ContactForm.module.css */
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+  }
+  
+  .field {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inputfield {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-sizing: border-box; /* Додаємо це, щоб розмір поля вводу включав в себе padding */
+  }
+  
+  .error {
+    color: #ff6347;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block; /* Зробимо помилки блочними елементами, щоб вони займали весь рядок */
+  }
+  
+  .btn {
+    background-color: #3768b2;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #1e4277;
+  }
+  
